@@ -98,7 +98,9 @@ class App extends Component {
         >
           Calculate Relationship Future
         </button>
-        <button data-testid="clear" onClick={this.handleClick}>
+        <button data-testid="clear" onClick={this.handleClick} 
+        // name="clear"
+        >
           Clear
         </button>
         <h3 data-testid="answer">{this.state.data.answer}</h3>
