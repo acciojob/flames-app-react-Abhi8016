@@ -80,7 +80,7 @@ class App extends Component {
           value={this.state.data.name1}
           onChange={this.handleChange}
           type="text"
-          // name="name1"
+          name="name1"
           placeholder={"Enter first name"}
         />
         <input
@@ -88,18 +88,18 @@ class App extends Component {
           value={this.state.data.name2}
           onChange={this.handleChange}
           type="text"
-          // name="name2"
+          name="name2"
           placeholder={"Enter second name"}
         />
         <button
           data-testid="calculate_relationship"
           onClick={this.handleClick}
-          // name="calculate_relationship"
+          name="calculate_relationship"
         >
           Calculate Relationship Futur
         </button>
         <button data-testid="clear" onClick={this.handleClick} 
-        // name="clear"
+        name="clear"
         >
           Clear
         </button>
